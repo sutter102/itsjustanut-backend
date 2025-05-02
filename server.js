@@ -12,8 +12,7 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 
 app.get('/', (req, res) => {
-  res.send('API is LIVE — use /api/videos to get content.');
-
+res.send('Welcome to the ItsJustANut API! Visit /api/videos to get content.');
 
 });
 
